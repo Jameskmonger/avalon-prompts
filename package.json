@@ -1,0 +1,38 @@
+{
+  "name": "avalon-prompts",
+  "version": "1.0.1",
+  "description": "Get the prompts for an Avalon game, based on the characters",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "pretest": "npm run build",
+    "test": "alsatian test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "index.ts",
+    "index.d.ts"
+  ],
+  "keywords": [
+    "avalon",
+    "resistance",
+    "board-game",
+    "gaming"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jameskmonger/avalon-prompts.git"
+  },
+  "author": "James Monger <jameskmonger@hotmail.co.uk> (http://jamesmonger.com)",
+  "bugs": {
+    "url": "https://github.com/Jameskmonger/avalon-prompts/issues"
+  },
+  "homepage": "https://github.com/Jameskmonger/avalon-prompts#readme",
+  "license": "MIT",
+  "devDependencies": {
+    "alsatian": "^2.4.0",
+    "neworbit-tslint-config": "^6.0.0",
+    "tslint": "^5.15.0",
+    "typescript": "^3.4.3"
+  }
+}
